@@ -1,0 +1,101 @@
+*{
+			padding:0;
+			margin:0;
+		}
+		html{
+			font-size: 20px;
+		}
+		/*header*/
+		#menu{ width:16rem; height:28rem;background:#000;position: relative; position:absolute;top: 0;left: 0;z-index:100; display:none;}
+		#box{  position: absolute; top:50%; left:50%; margin-top:-1.09rem; margin-left:-1.09rem;}
+		#box li a{ color:#fff; font-size:0.82rem; width:3.4rem;display: block; border-bottom:1px solid #fff;padding: 0.1rem;}
+
+		#lg_wrap{
+			width:16rem;
+			height:1.88rem;
+			background:#040404;
+			position: relative;
+		}
+		#lg_wrap menu{
+			width:0.96rem;
+			height:0.69rem;
+			background: url("../img/1.jpg") no-repeat;
+			background-size:cover;
+			position: absolute;
+			top: 0.69rem;	
+			left: 1.15rem;
+		}
+		#lg_wrap h3{
+			color:#fff;
+			font-size:0.73rem;
+			margin: 0 auto;
+			line-height:1.88rem;
+			text-align: center;
+		}
+		/*section*/
+		section .lg_goods img{
+			width:16rem;
+			height:6.4rem;
+		}
+		section .lg_up {
+			width: 16rem;
+			height:6.2rem;
+			background: #fafafa;
+		}
+		section .lg_up li{
+			width:4rem;
+			float: left;
+			text-align: center;
+			margin-top:1.66rem;
+			font-size:0.47rem;
+		}
+		section .lg_up .active a{
+			color:red;
+		}
+		 .active .intr-svg .st0 {
+            fill:red;
+        }
+        .intr-svg {
+            width: 3rem;
+            height: 2rem;
+            margin-bottom: 0.6rem;
+        }
+       	section{
+       		overflow: hidden;
+       	}
+       	section .lg_down {
+       		overflow:hidden;
+       	}
+        section .lg_down li{
+        	float: left;
+        	width: 16rem;
+        	height:17.6rem;
+        }
+        section .lg_down li span{
+        	width:0.17rem;
+        	height:0.8rem;
+        	background: red;
+        	float: left;
+        	margin: 1.33rem 0.72rem 0 1.15rem;	
+        }
+        section .lg_down li div h3{
+        	margin-top: 1.2rem;
+        	font-size:0.99rem;
+        	float: left;
+        	color:red;
+        }
+        .lg_drop{
+        	width:64rem;
+        	overflow:hidden;
+        }
+        .lg_drop img{
+        	width:16rem;
+        	height:6.06rem;
+        }
+        section .lg_down li p{
+			font-size: 0.62rem;
+			line-height: 1.02rem;
+			margin-left: 2.13rem;
+			margin-right:1.12rem;
+			
+        }
