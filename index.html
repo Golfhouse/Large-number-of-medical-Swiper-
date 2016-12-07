@@ -12,46 +12,18 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/first.css">
-	<style>
-
-	</style>
-	<script src="js/swiper.min.js"></script>
-	<script src="js/jquery-1.7.2.js"></script>
-	<script>
-	(function(win,doc){
-		function change(){
-			doc.documentElement.style.fontSize=40*doc.documentElement.clientWidth/320+'px';
-		}
-		change();
-		window.addEventListener('resize',change,false);
-	})(window,document);
-	window.onload=function(){
-		 var swiper = new Swiper('.swiper-container', {
-	        pagination: '.swiper-pagination',
-	        slidesPerView: 3,
-	        paginationClickable: true,
-	        spaceBetween: 30
-    	});
-		$("#menu_ico").click(function(){
-			$("#menu").css("display","block");
-		});
-		$("#box_1,#box_2,#box_3").click(function(){
-			$("#menu").css("display","none");
-		});
-	};
-	
-	</script>
+	<style></style>
 </head>
 <body>
 	<div id="wrap">
 		<header id="hd" class="clearfix">
 			<em id="menu_ico" class="fl"></em>
 			<div id="menu">
-				<ul id="box">
-					<li><a href="second.html" id="box_1">产品介绍</a></li>
-					<li><a href="#t1" id="box_2">关于我们</a></li>
-					<li><a href="#t4" id="box_3">联系我们</a></li>
-				</ul>
+			<ul id="box">
+				<li><a href="second.html" id="box_1">产品介绍</a></li>
+				<li><a href="#t1" id="box_2">关于我们</a></li>
+				<li><a href="#t4" id="box_3">联系我们</a></li>
+			</ul>
 			</div>
 			<span id="hd_word" class="fl">大数医达</span>
 		</header>
@@ -121,7 +93,7 @@
 				<h3 class="ti clearfix"><span id="num" class="fl">03</span><span id="first_word" class="fl">我们的愿景</span></h3>
 				<em class="line1 line"></em>
 				<p id="cont">大数医达拥有自主知识产权的医疗大数据系统，该系统把超大规模的云计算系统，深度学习和数据挖掘等大数据算法，应用到医疗领域，自动化、智能化融汇多源异构的医疗数据，把自然语言的非结构化病例，自动转化为结构化病例，从中挖掘出医生临床诊断和治疗经验，助力医疗大数据产业发展，促进医疗卫生健康事业进步，服务社会，造福人类。</p>
-				<video src="img/hd.mp4" id="vi" controls></video>
+				<video src="img/hd.mp4" poster="img/3.png" id="vi" controls></video>
 				<!-- <div id="ar"><span id="arrow"></span></div> -->
 			</div>
 			<div class="artic">
@@ -136,4 +108,6 @@
 		<footer id="foot"><p>京ICP备16013105号-1</p></footer>
 	</div>
 </body>
+<script src="js/jquery-1.7.2.js"></script>
+<script src="js/first.js"></script>
 </html>

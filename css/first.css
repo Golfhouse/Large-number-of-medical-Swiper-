@@ -1,15 +1,15 @@
 	html{ font-size:40px;}
-	body{ width:100%; height:100%; }
+	body{ width:100%; height:100%; position:relative; }
 	#wrap{ width:100%; height:100%; }
 	#hd{ background: #000;height:0.9387rem;}
 	#menu_ico{ width:0.48rem; height:0.3413rem; background: url("../img/1.png") no-repeat; margin-top:0.2987rem; margin-left:0.587rem;background-size: 0.48rem 0.3413rem; }
 
-	#menu{ width:100%; height:100%;background:#000;position: relative; position:absolute; z-index:100; display:none;}
-	#box{ width:100%; height:100%;  position: absolute; top:50%; left:50%; margin-top:-1.09rem; margin-left:-1.09rem;}
+	#menu{ width:100%; height:100%;background:#000; position:absolute; z-index:100; display:none;}
+	#box{   position: absolute; top:5rem; left:3rem; }
 	#box li a{ color:#fff; font-size:0.52rem; width:2.18rem;display: block; border-bottom:1px solid #fff; line-height: 0.8rem;}
 
-	#hd_word{ font-size:0.3413rem; line-height:0.8853rem; color:#fff; margin-left:2.176rem; }
-	#sec #bac{ width:100%; height:8.544rem;  background:url("../img/banner.jpg") no-repeat;background-size:8rem 8.544rem; position: relative; }
+	#hd_word{ font-size:0.363rem; line-height:0.8853rem; color:#fff; font-weight:bold; margin-left:2.176rem; }
+	#sec #bac{ width:100%; height:8.544rem;  background:url("../img/banner.jpg") no-repeat;background-size:100% 8.544rem; position: relative; }
 	#sec #bac #smart{ font-size:0.3627rem; line-height:1.056rem; position: absolute;  top:4.2453rem; left:0.747rem; color:#fff; font-weight:bold; }
 	#sec #bac #heal{ font-size:0.6827rem; line-height:0.9067rem; color:#fff; background:#d41326; padding:0rem 0.288rem 0rem 0.1707rem;position:absolute; top:5.3013rem; left:0.736rem; }
 	#sec #bac #big{ font-size:0.6827rem;line-height:1.056rem; color:#fff; position:absolute; top:5.3013rem; left:4.373rem;}
@@ -18,7 +18,9 @@
 	#sec .artic #first_word{ font-size:0.4693rem; margin-left:0.3413rem; }
 	#sec .line{ width:0.9066rem; height:0.0853rem; background:red; margin-left:1.4186rem;display: block; margin-top:0.288rem; margin-bottom:0.3946rem;  }
 	#sec .artic #cont{ font-size:0.2994rem; line-height: 0.512rem; width:5.0986rem; margin-left:1.4186rem;}
-	.swiper-container {width:calc(100% - 1.024rem); height:3.3387rem; background:#fafafa; margin-top:0.5973rem;padding:0.9066rem 0.512rem 0rem;}
+
+
+	.swiper-container {width:calc(100% - 1.024rem); height:3.3387rem; background:#fafafa; margin-top:0.5973rem;padding:0.9066rem 0.512rem 0rem;overflow: auto;}
     .swiper-slide { width:2.3253rem;}
     .swiper-wrapper .swiper-slide .ico{  width:0.9386rem; height:0.7466rem; margin:0rem 0.693rem; background-size: 0.9386rem 0.7466rem; display: block; }
     #one{background:url("../img/elite.svg") no-repeat;  }
@@ -28,6 +30,9 @@
     #five{background:url("../img/bigData.svg") no-repeat;  }
     #six{background:url("../img/ais.svg") no-repeat;  }
     #seven{background:url("../img/acs.svg") no-repeat;  }
+
+
+
 	.ico_wor{ font-size: 0.2986rem;line-height: 0.7146rem;text-align: center;display: block; }
 	.ico_eng{ font-size:0.192rem; line-height: 0.326rem; text-align: center; display: block; }
 	.black{ color:#fff; background:#000;margin-top:0.28266rem; position:relative;}

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded',function(){
     change();
         win.addEventListener('resize',change,false);
     })(window,document);
-    var oM=document.querySelector('menu');
+    var oM=document.querySelector('#menu_ico');
     var oMenu=document.getElementById('menu');
     var oUl1=document.querySelector('.lg_up');
     var aLi1=oUl1.children;
